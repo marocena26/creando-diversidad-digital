@@ -1,0 +1,45 @@
+:root {
+    font-family: 'Rubik', sans-serif;
+}
+
+.base-header {
+   /* background-color: #FFFFFF;
+    width: 100%;
+    position: fixed;
+    /*top: 0;*/
+ 
+}
+
+.navegador {
+    background-color: #FFFFFF;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    width: 155px;
+    display: flex;
+    align-items: center;
+}
+
+.navegador-items {
+    font-size: 16px;
+    color: #4a4a4a;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+
+}
+
+.main {
+    background-color: #3CDBC0;
+    height: 100vh;
+
+}
+
+.lema{
+    font-size: 30px;
+    color: #FFFFFF;
+}
