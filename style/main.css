@@ -1,12 +1,14 @@
 :root {
     font-family: 'Rubik', sans-serif;
+    box-sizing: border-box;
 }
 
 .base-header {
     background-color: #FFFFFF;
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     position: sticky;
     top: 0;
@@ -16,13 +18,10 @@
 .logo {
     width: 155px;
     padding-top: 10px;
-    display: flex;
 }
 
 .navegador {
     background-color: #FFFFFF;
-    width: 100%;
-    
 }
 
 .navegador-items {
@@ -43,7 +42,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 100vw;
 
 }
 
@@ -66,8 +65,10 @@
 
 
 @media screen and (min-width: 768px) {
+
     .base-header {
         flex-direction:row ;
+        box-sizing: border-box;
         padding-top: 20px;
         padding-bottom: 20px;
         padding-left: 30px;
