@@ -54,9 +54,15 @@
     
 }
 
-.lema::first-letter {
+.lema::first-line {
     word-spacing: 100vw;
 }
+
+.lema-2 {
+    word-spacing: 100vw;
+}
+
+
 
 @media screen and (min-width: 768px) {
     .base-header {
