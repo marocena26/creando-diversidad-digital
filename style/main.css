@@ -73,7 +73,6 @@
     .base-header {
         flex-direction:row ;
         box-sizing: border-box;
-
     }
     .navegador-items {
         justify-content: flex-end;
