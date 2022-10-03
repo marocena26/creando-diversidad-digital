@@ -48,7 +48,25 @@
 
 .lema{
     font-size: 30px;
+    font-weight: 700;
     color: #FFFFFF;
     text-align: center;
     
 }
+
+@media screen and (min-width: 768px) {
+    .base-header {
+        flex-direction:row ;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+    }
+    .navegador-items {
+        justify-content: flex-end;
+        padding-right: 60px;
+    }
+
+    .lema {
+        font-size: 40px;
+    }
+ }
