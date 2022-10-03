@@ -62,20 +62,22 @@
     word-spacing: 100vw;
 }
 
-
-
 @media screen and (min-width: 768px) {
-
+   
+    .logo {
+        box-sizing: border-box;
+        padding-left: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
     .base-header {
         flex-direction:row ;
         box-sizing: border-box;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        padding-left: 30px;
+
     }
     .navegador-items {
         justify-content: flex-end;
-        padding-right: 60px;
+        padding-right: 30px;
     }
 
     .lema {
