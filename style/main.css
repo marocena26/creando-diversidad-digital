@@ -6,9 +6,10 @@
 .base-header {
     background-color: #FFFFFF;
     width: 100vw;
+    padding-bottom: 13px;
+    padding-top: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     position: sticky;
     top: 0;
@@ -17,23 +18,25 @@
 
 .logo {
     width: 155px;
-    padding-top: 10px;
 }
 
-.navegador {
+.nav {
     background-color: #FFFFFF;
 }
 
-.navegador-items {
+.nav-items {
     font-size: 16px;
-    color: #4a4a4a;
     display: flex;  
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    padding-top: 10px;
-    padding-bottom: 13px;
+   
+}
 
+.link{
+    text-decoration: none;
+    color: #4a4a4a;
+    text-transform: uppercase;
+    padding: 10px 10px 13px 10px;
 }
 
 .main {
@@ -46,40 +49,36 @@
 
 }
 
-.lema{
+.title{
     font-size: 30px;
     font-weight: 700;
     color: #FFFFFF;
     text-align: center;
+    text-transform: capitalize;
+    word-spacing: 100vw;
     
 }
 
-.lema::first-line {
-    word-spacing: 100vw;
-}
-
-.lema-2 {
-    word-spacing: 100vw;
-}
 
 @media screen and (min-width: 768px) {
    
-    .logo {
+    .base-header {
+        display: flex;
+        flex-direction: row ;
+        justify-content: space-between;
         box-sizing: border-box;
         padding-left: 30px;
+        padding-right: 20px;
         padding-top: 20px;
         padding-bottom: 20px;
     }
-    .base-header {
-        flex-direction:row ;
+
+    .logo {
         box-sizing: border-box;
-    }
-    .navegador-items {
-        justify-content: flex-end;
-        padding-right: 30px;
+        
     }
 
-    .lema {
+    .title {
         font-size: 40px;
     }
  }
