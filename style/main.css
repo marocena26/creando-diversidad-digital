@@ -1,84 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 :root {
-    font-family: 'Rubik', sans-serif;
-    box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  --color-grey: #4a4a4a;
+  --color-green: #3cdbc0;
+  --color-white: #ffffff;
 }
-
-.base-header {
-    background-color: #FFFFFF;
-    width: 100vw;
-    padding-bottom: 13px;
-    padding-top: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    z-index: 990;
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  background-color: var(--color-white);
+  width: 100vw;
+  padding-bottom: 13px;
 }
-
+.menu {
+  margin-top: 10px;
+}
+.menu ul {
+  display: flex;
+  list-style: none;
+}
 .logo {
-    width: 155px;
+  width: 155px;
 }
-
-.nav {
-    background-color: #FFFFFF;
+.link {
+  text-decoration: none;
+  color: var(--color-grey);
+  padding: 10px 10px 13px 10px;
+  text-transform: uppercase;
 }
-
-.nav-items {
-    font-size: 16px;
-    display: flex;  
-    justify-content: center;
-    align-items: center;
-   
-}
-
-.link{
-    text-decoration: none;
-    color: #4a4a4a;
-    text-transform: uppercase;
-    padding: 10px 10px 13px 10px;
-}
-
 .main {
-    background-color: #3CDBC0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-
+  /* vh, vw, % , px */
+  height: 100vh;
+  background-color: var(--color-green);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-.title{
-    font-size: 30px;
-    font-weight: 700;
-    color: #FFFFFF;
-    text-align: center;
-    text-transform: capitalize;
-    word-spacing: 100vw;
-    
+.title {
+  color: var(--color-white);
+  font-size: 30px;
+  /*word-spacing:100vw;*/
+  width: min-content; /*11ch;*/
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: capitalize;
 }
-
-
-@media screen and (min-width: 768px) {
-   
-    .base-header {
-        display: flex;
-        flex-direction: row ;
-        justify-content: space-between;
-        box-sizing: border-box;
-        padding-left: 30px;
-        padding-right: 20px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-
-    .logo {
-        box-sizing: border-box;
-        
-    }
-
-    .title {
-        font-size: 40px;
-    }
- }
+@media all and (min-width: 768px) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 20px;
+  }
+  .title {
+    font-size: 2.5rem; /*40px;*/
+  }
+}
