@@ -5,7 +5,7 @@ In this repository you can find the files generated in the **intermediate evalua
 
 The main objective of the exercise is to **replicate a layout** of a simplified version of the **[Adalab](https://adalab.es/)'s website Home page**, this Home page must have a **responsive design** that allows it to adapt to different devices.
 
-> **NOTA:** Enlace directo al poyecto pulsando **[aquí](https://marocena26.github.io/creando-diversidad-digital/)**
+> **NOTE:** Direct link to the project by clicking on the following **[link](https://marocena26.github.io/creando-diversidad-digital/)**
 
 ## 📝 Requirements
 
