@@ -1,7 +1,7 @@
 # creando-diversidad-digital 
 ## 🚀 Introduction
 
-In this repository you can find the files generated in the **intermediate evaluation of Module 1 - HTML and CSS** within **[Adalab](https://adalab.es/)'s Web Development Bootcamp - Promo Radia**.
+In this repository you can find the files generated in the **mid evaluation of Module 1 - HTML and CSS** within **[Adalab](https://adalab.es/)'s Web Development Bootcamp - Promo Radia**.
 
 The main objective of the exercise is to **replicate a layout** of a simplified version of the **[Adalab](https://adalab.es/)'s website Home page**, this Home page must have a **responsive design** that allows it to adapt to different devices.
 
