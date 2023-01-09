@@ -45,6 +45,13 @@ The website must be **responsive**, that is to say, it must work correctly for t
   - The text of the menu options has a size of 16px.
   - The title text "Creating Digital Diversity" has a size of 40px.
 
+## 💾 Steps to follow to use this project on your computer:
+
+1. Click on the top right corner > **Fork**.
+2. It will ask you to choose which GitHub user you want to fork it to. **Choose your user**.
+3. **Go to github.com/your-user/name-of-project**, **clone it** and do whatever you want, you can rename the repo, change the code, redeploy it to GitHub Pages...
+4. **Finally** and for everything to work properly, **you must disable GitHub Pages and re-enable** it so that GitHub generates the new URL correctly.
+
 ## ✅ Final result
 <div id="header" align="center">
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/113302094/211353285-a7927269-0716-433d-b124-aee023a48804.png">
